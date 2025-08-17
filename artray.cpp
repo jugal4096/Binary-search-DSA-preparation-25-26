@@ -15,7 +15,7 @@ int binarysearch(int arr[],int s,int e,int target){
     return -1;
 }
 int main(){
-    int arr[]={90,32,12,43,56,73};
+    int arr[]={1,2,3,4,5,6,8};
     int target;
     int n = sizeof(arr)/sizeof(arr[0]);
     cout <<"Enter the element you want to search : ";
@@ -27,4 +27,5 @@ int main(){
     }else{
         cout <<"Element found at "<<r+1<<" th "<<"position";
     }
+
 }
